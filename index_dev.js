@@ -37,6 +37,7 @@ const db = new sqlite3.Database('./database.db', (err) => {
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )
     `);
+        console.log('Finalizada la conexión con la base de datos SQLite :)');
     }
 });
 
